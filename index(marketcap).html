@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style></style>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <h1 style="text-align: center;">
+    Top 100 Cryptocurrency By Market Capitalization
+  </h1>
+  <h6 class="impact">Ivan on Tech Academy bootcamp sample project</h6>
+  <body class="stas">
+    <button id="previousButton" class="previous">&laquo; Previous</button>
+    <button id="nextbutton" class="next">Next &raquo;</button>
+    <div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="home-tab"
+            data-toggle="tab"
+            href="#home"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+            >Cryptocurrencies
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="profile-tab"
+            data-toggle="tab"
+            href="Exchanges.html"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+            >Exchanges
+          </a>
+        </li>
+      </ul>
+    </div>
+    <img src="" alt="" />
+    <table class="col-md-10 table">
+      <thead>
+        <tr>
+          <th scope="col">Rank</th>
+
+          <th scope="col">Name</th>
+          <th scope="col">Market Cap</th>
+          <th scope="col">Price</th>
+          <th scope="col">Price Change(24h)</th>
+          <th scope="col">Circulating Supply</th>
+          <th scope="col">Change(24h)</th>
+        </tr>
+      </thead>
+      <tbody id="stats"></tbody>
+    </table>
+
+    <script></script>
+  </body>
+</html>

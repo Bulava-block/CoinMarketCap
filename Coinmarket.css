@@ -1,7 +1,7 @@
 .previous {
       position: absolute;
       left: 1250px;
-      top: 437px;
+      top: 405px;
       border-color: #dbd7cc;
       color: dodgerblue;
       border-width: thin;
@@ -9,7 +9,7 @@
     .next {
       position: absolute;
       left: 1350px;
-      top: 437px;
+      top: 405px;
       border-color: #dbd7cc;
       color: dodgerblue;
       border-width: thin;

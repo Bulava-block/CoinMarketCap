@@ -37,7 +37,13 @@ var numberOfPage = 1;
 
               x = new Intl.NumberFormat().format(data[i].market_cap);
               // console.log(data[i].market_cap_change_percentage_24h, i);
-
+              if (numberOfPage <= 1) {
+                document.getElementById("previousButton").hidden = true;
+                }
+              else {
+                document.getElementById("previousButton").hidden = false;
+                }
+                  
               $("#stats").append(
                 `<tr>
           <th scope="row">${data[i].market_cap_rank}</th>

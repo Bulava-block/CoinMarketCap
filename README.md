@@ -1,6 +1,7 @@
-coinMarket.js  - the problem with console.log was that "toFixed" command couldn't be applied to "null" so I had to move to.Fixed from line 49 to 34
+coinMarket.js - the problem with console.log was that "toFixed" command couldn't be applied to "null" so I had to move to.Fixed from line 49 to 34
 
 other tasks:
+
 - name files using camel case format https://en.wikipedia.org/wiki/Camel_case - done
 - Add the % symbol to market cap change 24h, and fix the circulating supply format too. - done
 - Add the coin symbol to the circulating supply (like 18,442,181 BTC )-done, All with Capital letters

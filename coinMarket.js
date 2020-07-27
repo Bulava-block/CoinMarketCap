@@ -17,6 +17,7 @@ $("#previousButton").click(function () {
   }
 
   console.log("Whatuuup");
+
   nextPage();
 });
 
